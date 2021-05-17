@@ -10,7 +10,7 @@ for (let i = 1; i < 31; i++) {
     {
       id: `menu-${i}`,
       parentId: `menu-${i - 1}`,
-      title: `Menu ${i} fddfdfdfjkhslahdlash`,
+      title: `Menu ${i} ${'a'.repeat(i * 2)}`,
     }
   );
   for (let j = 0; j < i; j++) {
